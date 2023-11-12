@@ -1,0 +1,105 @@
+.calculator {
+    width: 300px;
+    height: 490px;
+    margin-top: 65px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    background: #22252d;
+    overflow: hidden;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+[type="button"].equal {
+    background-color: #09d003d1;
+    cursor: pointer;
+    width: 57px;
+    height: 52px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+.action {
+    margin: 13px 0 7px 10px;
+}
+
+#p9-5 {
+    margin-right: 9.5px;
+}
+
+#p10 {
+    margin-right: 10px;
+}
+
+#p9--5 {
+    margin-right: 9.5px;
+}
+
+#buttons_numbers_7 {
+    margin-right: 9.5px;
+}
+
+#buttons_numbers_8 {
+    margin-right: 10px;
+}
+
+#buttons_numbers_9 {
+    margin-right: 9.5px;
+}
+
+#buttons_numbers_4 {
+    margin-left: 9.5px;
+}
+
+#buttons_numbers_5 {
+    margin-left: 10px;
+}
+
+#buttons_numbers_6 {
+    margin-left: 9.5px;
+}
+
+#buttons_numbers_1 {
+    margin-left: 9.5px;
+}
+
+#buttons_numbers_2 {
+    margin-left: 10px;
+}
+
+#buttons_numbers_3 {
+    margin-left: 9.5px;
+}
+
+#buttons_numbers_0 {
+    margin-left: 84px;
+}
+
+#buttons_numbers_dot {
+    margin-left: 9.5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+#buttons_numbers_7 {
+    margin-left: 10px;
+}
+
+.actionBtn {
+    margin-right: 6px;
+}

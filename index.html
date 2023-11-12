@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>calculator</title>
+</head>
+
+<body class="flex justify-center justify-items-center">
+    <section class="calculator">
+        <form>
+            <input type="text"
+                class="screen w-full h-36 rounded-none text-2xl p-4 bg-slate-600 text-right text-white caret-slate-800"
+                placeholder="Please enter a number...">
+        </form>
+        <div class="action">
+            <button type="button" class="btn bg-amber-300" id="p9-5">*</button>
+            <button type="button" class="btn bg-amber-300" id="p10">/</button>
+            <button type="button" class="btn bg-amber-300" id="p9--5">-</button>
+            <button type="button" class="btn bg-amber-300">+</button>
+
+        </div>
+        <div class="buttons">
+            <div class="buttons_numbers">
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_7">7</button>
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_8">8</button>
+                <button type="button" class="btn bg-neutral-50 mt-2">9</button>
+                <button type="button" class="btn bg-neutral-50 mt-3" id="buttons_numbers_4">4</button>
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_5">5</button>
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_6">6</button>
+                <button type="button" class="btn bg-neutral-50 mt-3" id="buttons_numbers_1">1</button>
+                <button type="button" class="btn bg-neutral-50 mt-3" id="buttons_numbers_2">2</button>
+                <button type="button" class="btn bg-neutral-50 mt-3" id="buttons_numbers_3">3</button>
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_0">0</button>
+                <button type="button" class="btn bg-neutral-50 mt-2" id="buttons_numbers_dot">.</button>
+
+            </div>
+            <div class="actionBtn">
+                <input type="button" class="equal" type="button" value="=">
+                <button type="button" class="backspace bg-amber-500 mt-3 ml-auto">B</button>
+                <button type="button" class="clear bg-red-600 mt-3 ml-auto">C</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
